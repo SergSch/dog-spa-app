@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer_inp {
+  padding: 20px 25px;
+  width: 400px;
+  border-radius: 5px;
+}

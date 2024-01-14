@@ -1,0 +1,6 @@
+.collar_block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  margin-top: 80px;
+}

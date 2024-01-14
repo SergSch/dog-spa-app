@@ -1,0 +1,7 @@
+.heading2 {
+  text-align: center;
+  color: #4c4c4b;
+  font-size: clamp(2rem, 1.407rem + 2.96vw, 4rem);
+  font-weight: 700;
+  margin: 0 auto;
+}

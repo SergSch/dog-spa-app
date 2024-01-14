@@ -1,0 +1,22 @@
+.btn {
+  margin: 0 auto;
+  border-radius: 30px;
+  background: #e89b93;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px; /* 105% */
+  padding: 10px 20px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}

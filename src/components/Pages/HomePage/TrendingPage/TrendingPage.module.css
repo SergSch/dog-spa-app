@@ -1,0 +1,35 @@
+.main {
+  padding: 50px 150px 80px 110px;
+}
+
+.main_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 60px;
+}
+
+.spa img {
+  width: 550px;
+  border: 5px solid #dfb2a9;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  color: #4c4c4b;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.paragraph {
+  color: #4c4c4b;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}

@@ -1,0 +1,14 @@
+.wrap {
+  background-color: #dfb2a9;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  color: #4c4c4b;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.wrap div {
+  display: flex;
+  gap: 20px;
+}

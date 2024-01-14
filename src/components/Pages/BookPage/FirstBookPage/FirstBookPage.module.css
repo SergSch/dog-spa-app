@@ -1,0 +1,17 @@
+.first {
+  padding: 100px 0 295px 110px;
+  background-image: url('./../../../../../public/assets/secondScreenMain.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.title_block {
+  width: clamp(18.75rem, 15.417rem + 16.67vw, 30rem);
+}
+.title {
+  color: #fff;
+  font-size: clamp(2rem, 1.296rem + 3.52vw, 4.375rem);
+  font-weight: 700;
+}
