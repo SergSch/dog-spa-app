@@ -5,7 +5,7 @@ import FooterTitle from '../FooterTitle/FooterTitle';
 const SocialList = () => {
   const social = [
     {
-      img: './assets/sozial/instagram.svg',
+      img: './assets/sozial/Instagram.svg',
       title: 'Instagram',
     },
     {
