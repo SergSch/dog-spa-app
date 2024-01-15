@@ -1,35 +1,31 @@
 import React from 'react';
 import classes from './SocialList.module.css';
 import FooterTitle from '../FooterTitle/FooterTitle';
-
+// ./assets/payments/applePay.svg
 const SocialList = () => {
-  const img1 = './../../../../../../public/assets/sozial/Instagram.svg';
-  const img2 = './assets/sozial/Facebook.svg';
-  const img3 = './assets/sozial/Pinterest.svg';
-  const img4 = './assets/sozial/Twitter.svg';
-  const img5 = './assets/sozial/Snapchat.svg';
   const social = [
     {
-      img: './../../../../../../public/assets/sozial/Instagram.svg',
-      title: 'instagram',
+      img: './assets/payments/google_pay.svg',
+      title: 'Instagram',
     },
     {
-      img: './assets/sozial/Facebook.svg',
-      title: 'facebook',
+      img: './assets/payments/facebook.svg',
+      title: 'Facebook',
     },
     {
-      img: img3,
-      title: 'pintersst',
+      img: './assets/payments/applePay.svg',
+      title: 'Pinterest',
     },
     {
-      img: img4,
-      title: 'twitter',
+      img: './assets/sozial/twitter.svg',
+      title: 'Twitter',
     },
     {
-      img: img5,
-      title: 'snapchat',
+      img: './assets/sozial/snapchat.svg',
+      title: 'Snapchat',
     },
   ];
+
   return (
     <div className={classes.wrap}>
       <FooterTitle text={'Connect With Us On Social Media'} />

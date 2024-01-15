@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const HeadScreen = () => {
   return (
-    <div className={classes.head}>
+    <div className={classes.head_block}>
       <div className={classes.title_block}>
         <h1 className={classes.title}>Your dog running amok in the dirt?</h1>
         <Heading2

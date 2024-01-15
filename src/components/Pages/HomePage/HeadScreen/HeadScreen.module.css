@@ -1,6 +1,6 @@
-.head {
+.head_block {
   padding: 130px 80px;
-  background-image: url('./../../../../../public/assets/Main_img.jpg');
+  background-image: url('./../../../../../public/assets/mainImg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
