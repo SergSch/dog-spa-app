@@ -20,9 +20,11 @@
 }
 
 .date_block {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 10px; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .date_block h4 {
