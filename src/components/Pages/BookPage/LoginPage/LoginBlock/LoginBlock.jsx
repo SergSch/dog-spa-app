@@ -69,11 +69,11 @@ const LoginBlock = () => {
         <input type="text" name="cardName" id="" placeholder="Name on Card" />
 
         <div className={classes.payment_methods}>
-          <img
+          {/* <img
             src="./dog-spa-app/assets/payments/applePay.svg"
             alt="applePay"
-          />
-          {/* <img src="./assets/payments/applePay.svg" alt="applePay" /> */}
+          /> */}
+          <img src="./assets/payments/applePay.svg" alt="applePay" />
           <img src="./assets/payments/google_pay.svg" alt="google_pay" />
           <img src="./assets/payments/visa.svg" alt="visa" />
           <img src="./assets/payments/master_card.svg" alt="master_card" />
