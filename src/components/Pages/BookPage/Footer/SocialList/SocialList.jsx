@@ -1,19 +1,19 @@
 import React from 'react';
 import classes from './SocialList.module.css';
 import FooterTitle from '../FooterTitle/FooterTitle';
-// ./assets/payments/applePay.svg
+
 const SocialList = () => {
   const social = [
     {
-      img: './assets/payments/google_pay.svg',
+      img: './assets/sozial/instagram.svg',
       title: 'Instagram',
     },
     {
-      img: './assets/payments/facebook.svg',
+      img: './assets/sozial/facebook.svg',
       title: 'Facebook',
     },
     {
-      img: './assets/payments/applePay.svg',
+      img: './assets/sozial/pinterest.svg',
       title: 'Pinterest',
     },
     {
