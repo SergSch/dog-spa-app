@@ -9,19 +9,19 @@ const SocialList = () => {
       title: 'Instagram',
     },
     {
-      img: './assets/sozial/facebook.svg',
+      img: './assets/sozial/Facebook.svg',
       title: 'Facebook',
     },
     {
-      img: './assets/sozial/pinterest.svg',
+      img: './assets/sozial/Pinterest.svg',
       title: 'Pinterest',
     },
     {
-      img: './assets/sozial/twitter.svg',
+      img: './assets/sozial/Twitter.svg',
       title: 'Twitter',
     },
     {
-      img: './assets/sozial/snapchat.svg',
+      img: './assets/sozial/Snapchat.svg',
       title: 'Snapchat',
     },
   ];
