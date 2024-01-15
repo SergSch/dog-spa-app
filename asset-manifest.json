@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dog-spa-app/static/css/main.4e635829.css",
-    "main.js": "/dog-spa-app/static/js/main.74d3c88e.js",
+    "main.js": "/dog-spa-app/static/js/main.e75ecc01.js",
     "static/media/secondScreenMain.jpg": "/dog-spa-app/static/media/secondScreenMain.d6f250c747a6324613a4.jpg",
     "static/media/mainImg.jpg": "/dog-spa-app/static/media/mainImg.da004221830e8744992a.jpg",
     "index.html": "/dog-spa-app/index.html",
     "main.4e635829.css.map": "/dog-spa-app/static/css/main.4e635829.css.map",
-    "main.74d3c88e.js.map": "/dog-spa-app/static/js/main.74d3c88e.js.map"
+    "main.e75ecc01.js.map": "/dog-spa-app/static/js/main.e75ecc01.js.map"
   },
   "entrypoints": [
     "static/css/main.4e635829.css",
-    "static/js/main.74d3c88e.js"
+    "static/js/main.e75ecc01.js"
   ]
 }
