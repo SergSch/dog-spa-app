@@ -1,15 +1,36 @@
 {
   "files": {
-    "main.css": "/dog-spa-app/static/css/main.a09c4b49.css",
-    "main.js": "/dog-spa-app/static/js/main.f8172060.js",
+    "main.css": "/dog-spa-app/static/css/main.fadb3f0e.css",
+    "main.js": "/dog-spa-app/static/js/main.837355fc.js",
     "static/media/secondScreenMain.jpg": "/dog-spa-app/static/media/secondScreenMain.d6f250c747a6324613a4.jpg",
     "static/media/mainImg.jpg": "/dog-spa-app/static/media/mainImg.da004221830e8744992a.jpg",
+    "static/media/necklece.png": "/dog-spa-app/static/media/necklece.00920362b71b88204031.png",
+    "static/media/spa_dog.jpg": "/dog-spa-app/static/media/spa_dog.6bf11954b2105d23e011.jpg",
+    "static/media/belt.jpg": "/dog-spa-app/static/media/belt.de3bcbf53dba0e185fc2.jpg",
+    "static/media/diadem.jpg": "/dog-spa-app/static/media/diadem.6c96582c46d22a000be8.jpg",
+    "static/media/Logo.svg": "/dog-spa-app/static/media/Logo.5cb60b476beee01e9985c41fa1ff8bf8.svg",
+    "static/media/blondCatBag.jpg": "/dog-spa-app/static/media/blondCatBag.702be2b34de74a963a4a.jpg",
+    "static/media/dog_bag.jpg": "/dog-spa-app/static/media/dog_bag.8b16feacd85ee0cd3d2e.jpg",
+    "static/media/redCat_bag.jpg": "/dog-spa-app/static/media/redCat_bag.f51e3cc1d79124f193dc.jpg",
+    "static/media/amazon.svg": "/dog-spa-app/static/media/amazon.392e428cab448b2435553934855d509d.svg",
+    "static/media/Instagram.svg": "/dog-spa-app/static/media/Instagram.b69d9346a654dd5a76eb10ac6d8da49a.svg",
+    "static/media/google_pay.svg": "/dog-spa-app/static/media/google_pay.1a0079bc0b7b684ad7f4738add0793ee.svg",
+    "static/media/applePay.svg": "/dog-spa-app/static/media/applePay.537adb3f0062dd00e535365b7b95f0d9.svg",
+    "static/media/Snapchat.svg": "/dog-spa-app/static/media/Snapchat.d7a8ddbe041d03bf6ba61be612e3532a.svg",
+    "static/media/Twitter.svg": "/dog-spa-app/static/media/Twitter.8381a16cf96f1320cc9a60ae71e7252e.svg",
+    "static/media/visa.svg": "/dog-spa-app/static/media/visa.60e1e52b03de9ee77fd5a66ac0cf2594.svg",
+    "static/media/master_card.svg": "/dog-spa-app/static/media/master_card.ab5918c5874c7bcc948df52958028d9f.svg",
+    "static/media/Pinterest.svg": "/dog-spa-app/static/media/Pinterest.4643e27a990ffc103552b448144b4e6e.svg",
+    "static/media/shopping-bag.svg": "/dog-spa-app/static/media/shopping-bag.ec502d276a46b24bc7262cea126c5009.svg",
+    "static/media/user.svg": "/dog-spa-app/static/media/user.4a6800a3490306704587b07ebee41abe.svg",
+    "static/media/Facebook.svg": "/dog-spa-app/static/media/Facebook.7c009ecf3544a803e6c5989bb6bdccaa.svg",
     "index.html": "/dog-spa-app/index.html",
-    "main.a09c4b49.css.map": "/dog-spa-app/static/css/main.a09c4b49.css.map",
-    "main.f8172060.js.map": "/dog-spa-app/static/js/main.f8172060.js.map"
+    "static/media/search.svg": "/dog-spa-app/static/media/search.bf08a2fbf505c6abaa8008618a0c74dc.svg",
+    "main.fadb3f0e.css.map": "/dog-spa-app/static/css/main.fadb3f0e.css.map",
+    "main.837355fc.js.map": "/dog-spa-app/static/js/main.837355fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a09c4b49.css",
-    "static/js/main.f8172060.js"
+    "static/css/main.fadb3f0e.css",
+    "static/js/main.837355fc.js"
   ]
 }
