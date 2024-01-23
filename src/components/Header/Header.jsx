@@ -1,13 +1,17 @@
 import React from 'react';
 import classes from './Header.module.css';
 import { Link } from 'react-router-dom';
+import logo from './../../images/Logo.svg';
+import search from './../../images/icons/search.svg';
+import shoppingBag from './../../images/icons/shopping-bag.svg';
+import user from './../../images/icons/user.svg';
 
 const Header = () => {
   return (
     <div className="container">
       <div className={classes.header}>
         <>
-          <img src="./assets/Logo.svg" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </>
 
         <nav>
@@ -35,11 +39,11 @@ const Header = () => {
         </nav>
 
         <div className={classes.header_img}>
-          <img src="./assets/icons/search.svg" alt="search" />
+          <img src={search} alt="search" />
           <div className={classes.cart}>
-            <img src="./assets/icons/shopping-bag.svg" alt="bag" />
+            <img src={shoppingBag} alt="bag" />
           </div>
-          <img src="./assets/icons/user.svg" alt="user" />
+          <img src={user} alt="user" />
         </div>
       </div>
     </div>

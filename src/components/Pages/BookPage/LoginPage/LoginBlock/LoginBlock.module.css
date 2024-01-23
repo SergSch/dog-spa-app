@@ -5,6 +5,7 @@
 }
 
 .inputs_block {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 60px;
@@ -69,6 +70,7 @@ textarea {
 }
 
 .payment {
+  position: relative;
   max-width: 500px;
   margin: 0 auto;
   display: flex;
@@ -106,4 +108,26 @@ textarea {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+}
+.firstInput {
+  position: relative;
+}
+.error,
+.error3 {
+  position: absolute;
+  color: red;
+  font-size: 18px;
+  left: 60px;
+  bottom: -30px;
+}
+.error2 {
+  position: absolute;
+  color: red;
+  font-size: 18px;
+  left: 420px;
+  bottom: -30px;
+}
+.errorPay {
+  color: red;
+  font-size: 18px;
 }

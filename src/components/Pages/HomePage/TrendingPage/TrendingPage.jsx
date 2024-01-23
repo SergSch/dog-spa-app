@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './TrendingPage.module.css';
 import { Link } from 'react-router-dom';
+import i from './spa_dog.jpg';
 
 import Heading2 from '../../../Heading2/Heading2';
 import Button from '../../../../UI/Button/Button';
@@ -11,7 +12,7 @@ const TrendingPage = () => {
       <Heading2 text={'Trending Spa Package'} />
       <div className={classes.main_block}>
         <div className={classes.spa}>
-          <img src="./assets/spa_dog.jpg" alt="relax_dog" />
+          <img src={i} alt="relax_dog" />
         </div>
         <div className={classes.description}>
           <h3 className={classes.title}>

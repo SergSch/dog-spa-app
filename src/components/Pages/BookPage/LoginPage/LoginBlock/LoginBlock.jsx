@@ -3,18 +3,73 @@ import 'react-calendar/dist/Calendar.css';
 import Calendar from 'react-calendar';
 import classes from './LoginBlock.module.css';
 import Button from '../../../../../UI/Button/Button';
+import { useForm } from 'react-hook-form';
+import apple from './../../../../../images/payments/applePay.svg';
+import google from './../../../../../images/payments/google_pay.svg';
+import visa from './../../../../../images/payments/visa.svg';
+import masterCard from './../../../../../images/payments/master_card.svg';
+import amazon from './../../../../../images/payments/amazon.svg';
 
 const LoginBlock = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+    watch,
+  } = useForm();
+
   const [calendarValue, setCalendarValue] = useState(new Date());
+
+  const handelFormError = () => {
+    reset();
+  };
+
   return (
-    <form className={classes.form_block}>
+    <form
+      onSubmit={handleSubmit((data) => console.log(data), handelFormError)}
+      className={classes.form_block}
+    >
       <div className={classes.inputs_block}>
-        <input type="text" name="firstName" placeholder="First name" />
-        <input type="text" name="lastName" placeholder="Last name" />
+        <input
+          className={classes.firstInput}
+          type="text"
+          name="firstName"
+          placeholder="First name"
+          {...register('firstName', { required: 'Please enter your name!' })}
+        />
+        {errors.firstName && (
+          <p className={classes.error}>{errors.firstName.message}</p>
+        )}
+        <input
+          type="text"
+          name="lastName"
+          placeholder="Last name"
+          {...register('lastName', { required: 'Please enter your lastname!' })}
+        />
+        {errors.lastName && (
+          <p className={classes.error2}>{errors.lastName.message}</p>
+        )}
       </div>
       <div className={classes.inputs_block}>
-        <input type="text" name="email" placeholder="Email" />
-        <input type="text" name="phone" placeholder="Phone number" />
+        <input
+          type="text"
+          name="email"
+          placeholder="Email"
+          {...register('email', { required: 'Please enter your email!' })}
+        />
+        {errors.email && (
+          <p className={classes.error3}>{errors.email.message}</p>
+        )}
+        <input
+          type="text"
+          name="phone"
+          placeholder="Phone number"
+          {...register('phone', { required: 'Please enter your phone!' })}
+        />
+        {errors.phone && (
+          <p className={classes.error2}>{errors.phone.message}</p>
+        )}
       </div>
       <div className={classes.date_block}>
         <div className={classes.time_block}>
@@ -42,6 +97,7 @@ const LoginBlock = () => {
             onChange={setCalendarValue}
             value={calendarValue}
             className={classes.calendar}
+            locale="en-US"
           />
         </div>
       </div>
@@ -61,19 +117,90 @@ const LoginBlock = () => {
           name="numberCard"
           id=""
           placeholder="Credit Card Number"
+          {...register('numberCard', {
+            required: 'Please enter your Card Number!',
+            minLength: {
+              value: 6,
+              message: 'Card Number should be 6 sign at least',
+            },
+            maxLength: {
+              value: 12,
+              message: 'Card Number to long',
+            },
+          })}
         />
+        {errors.numberCard && (
+          <p className={classes.errorPay}>{errors.numberCard.message}</p>
+        )}
         <div className={classes.small_pay}>
-          <input type="text" name="cardDate" id="" placeholder="Expiry Date" />
-          <input type="text" name="cvv" id="" placeholder="CVV" />
+          <input
+            type="text"
+            name="cardDate"
+            id=""
+            placeholder="Expiry Date"
+            {...register('cardDate', {
+              required: 'Please enter Expiry Date!',
+              minLength: {
+                value: 6,
+                message: 'Date should be 6 sign at least',
+              },
+              maxLength: {
+                value: 8,
+                message: 'To long',
+              },
+            })}
+          />
+          {errors.cardDate && (
+            <p className={classes.errorPay}>{errors.cardDate.message}</p>
+          )}
+          <input
+            type="text"
+            name="cvv"
+            id=""
+            placeholder="CVV"
+            {...register('cvv', {
+              required: 'Please enter CVV!',
+              minLength: {
+                value: 4,
+                message: 'Date should be 4 sign at least',
+              },
+              maxLength: {
+                value: 6,
+                message: 'To long',
+              },
+            })}
+          />
+          {errors.cvv && (
+            <p className={classes.errorPay}>{errors.cvv.message}</p>
+          )}
         </div>
-        <input type="text" name="cardName" id="" placeholder="Name on Card" />
+        <input
+          type="text"
+          name="cardName"
+          id=""
+          placeholder="Name on Card"
+          {...register('cardName', {
+            required: 'Please enter card name!',
+            minLength: {
+              value: 2,
+              message: 'Date should be 6 sign at least',
+            },
+            maxLength: {
+              value: 20,
+              message: 'To long',
+            },
+          })}
+        />
+        {errors.cardName && (
+          <p className={classes.errorPay}>{errors.cardName.message}</p>
+        )}
 
         <div className={classes.payment_methods}>
-          <img src="./assets/payments/applePay.svg" alt="applePay" />
-          <img src="./assets/payments/google_pay.svg" alt="google_pay" />
-          <img src="./assets/payments/visa.svg" alt="visa" />
-          <img src="./assets/payments/master_card.svg" alt="master_card" />
-          <img src="./assets/payments/amazon.svg" alt="amazon" />
+          <img src={apple} alt="applePay" />
+          <img src={google} alt="google_pay" />
+          <img src={visa} alt="visa" />
+          <img src={masterCard} alt="master_card" />
+          <img src={amazon} alt="amazon" />
         </div>
         <p className={classes.payment_paragraph}>
           Please be advised cancelling within 24 hours of your scheduled

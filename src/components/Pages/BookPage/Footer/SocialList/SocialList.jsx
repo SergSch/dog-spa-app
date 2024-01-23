@@ -1,27 +1,32 @@
 import React from 'react';
 import classes from './SocialList.module.css';
 import FooterTitle from '../FooterTitle/FooterTitle';
+import insta from './../../../../../images/sozial/Instagram.svg';
+import facebook from './../../../../../images/sozial/Facebook.svg';
+import pinterest from './../../../../../images/sozial/Pinterest.svg';
+import twitter from './../../../../../images/sozial/Twitter.svg';
+import snapchat from './../../../../../images/sozial/Snapchat.svg';
 
 const SocialList = () => {
   const social = [
     {
-      img: './assets/sozial/Instagram.svg',
+      img: insta,
       title: 'Instagram',
     },
     {
-      img: './assets/sozial/Facebook.svg',
+      img: facebook,
       title: 'Facebook',
     },
     {
-      img: './assets/sozial/Pinterest.svg',
+      img: pinterest,
       title: 'Pinterest',
     },
     {
-      img: './assets/sozial/Twitter.svg',
+      img: twitter,
       title: 'Twitter',
     },
     {
-      img: './assets/sozial/Snapchat.svg',
+      img: snapchat,
       title: 'Snapchat',
     },
   ];

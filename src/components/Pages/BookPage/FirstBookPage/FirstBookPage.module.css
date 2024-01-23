@@ -3,6 +3,7 @@
   background-image: url('./../../../../../public/assets/secondScreenMain.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  object-fit: cover;
   background-size: cover;
   margin-bottom: 60px;
 }
